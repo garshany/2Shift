@@ -14,6 +14,7 @@
   <img src="https://img.shields.io/badge/macOS-13%2B-blue?style=flat-square&logo=apple" alt="macOS 13+">
   <img src="https://img.shields.io/badge/Swift-6-orange?style=flat-square&logo=swift" alt="Swift 6">
   <img src="https://img.shields.io/badge/offline-100%25-success?style=flat-square" alt="No network">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square" alt="MIT"></a>
 </p>
 
 <p align="center">
@@ -79,6 +80,10 @@ scripts/package_release.sh # DMG + ZIP + manifest
 ## Приватность
 
 Нет серверов, нет аналитики, нет сети. См. [docs/PRIVACY.md](docs/PRIVACY.md).
+
+## Лицензия
+
+[MIT](LICENSE) — используйте, меняйте и распространяйте свободно.
 
 ---
 

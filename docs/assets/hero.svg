@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1f2b"/>
+      <stop offset="1" stop-color="#2b2f45"/>
+    </linearGradient>
+    <linearGradient id="key" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3f5c"/>
+      <stop offset="1" stop-color="#262a3f"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="880" height="260" rx="22" fill="url(#bg)"/>
+
+  <!-- before -->
+  <g transform="translate(60,70)" filter="url(#shadow)">
+    <rect width="270" height="120" rx="16" fill="#f5f6fa"/>
+    <text x="24" y="42" font-size="15" fill="#8a8fa3">Набрал не в той раскладке</text>
+    <rect x="24" y="60" width="118" height="42" rx="6" fill="#b7d4ff" opacity="0.7"/>
+    <text x="30" y="92" font-size="34" font-weight="600" fill="#1c1f2b">ghbdtn</text>
+  </g>
+
+  <!-- shift keys -->
+  <g transform="translate(365,88)">
+    <rect x="0" y="0" width="64" height="64" rx="12" fill="url(#key)" stroke="#5a608a" stroke-width="1.5"/>
+    <text x="32" y="43" font-size="30" text-anchor="middle" fill="#dfe3ff">⇧</text>
+    <rect x="80" y="0" width="64" height="64" rx="12" fill="url(#key)" stroke="#5a608a" stroke-width="1.5"/>
+    <text x="112" y="43" font-size="30" text-anchor="middle" fill="#dfe3ff">⇧</text>
+    <text x="72" y="-12" font-size="13" text-anchor="middle" fill="#9aa0c8" letter-spacing="1">ДВОЙНОЙ SHIFT</text>
+  </g>
+
+  <!-- after -->
+  <g transform="translate(550,70)" filter="url(#shadow)">
+    <rect width="270" height="120" rx="16" fill="#f5f6fa"/>
+    <text x="24" y="42" font-size="15" fill="#8a8fa3">Готово + раскладка → РУ</text>
+    <text x="30" y="92" font-size="34" font-weight="600" fill="#1c1f2b">привет</text>
+    <rect x="190" y="66" width="52" height="30" rx="7" fill="#1c1f2b"/>
+    <text x="216" y="87" font-size="15" font-weight="700" text-anchor="middle" fill="#ffffff">РУ</text>
+  </g>
+
+  <text x="440" y="232" font-size="14" text-anchor="middle" fill="#9aa0c8">TwoShift · 2⇧ · работает в любом приложении macOS, полностью локально</text>
+</svg>

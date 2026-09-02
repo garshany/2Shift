@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Resources/AppIcon.iconset/icon_128x128@2x.png" width="128" alt="TwoShift icon">
+  <img src="docs/assets/icon-256.png" width="128" alt="TwoShift icon">
 </p>
 
 <h1 align="center">TwoShift · 2⇧</h1>
